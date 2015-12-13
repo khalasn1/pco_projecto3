@@ -1,0 +1,18 @@
+16
+A0 'Num_1
+A1 2.5
+B0 'Num_2
+B1 2.0
+C0 'add_(+)
+C1 + #A1 #B1
+D0 'sub_(-)
+D1 - #A1 #B1
+E0 'mul_(*)
+E1 * #A1 #B1
+F0 'div_(/)
+F1 / #A1 #B1
+G0 'min
+G1 min #A1 #B1
+H0 'max
+H1 max #A1 #B1
+0

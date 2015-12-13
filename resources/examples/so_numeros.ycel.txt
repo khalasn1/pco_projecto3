@@ -1,0 +1,9 @@
+4
+A1 1.5
+B2 5.0
+C3 -7.3333333333
+XX9999 -1.0222
+3
+A1 dp=1;align=CENTER;bg=ffffff;fg=000000;font=Monospaced-8;
+B2 dp=0;align=CENTER;bg=0000ff;fg=ffffff;font=Monospaced-12;
+C3 dp=1;align=CENTER;bg=ffffff;fg=0000ff;font=ArialMT-12;

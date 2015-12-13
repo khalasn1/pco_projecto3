@@ -1,0 +1,21 @@
+14
+A1 'Exemplo
+A2 'CText
+A3 'CNumber
+A4 'CReference
+A5 'BinaryOp
+A6 'RangeOp
+A7 'CError
+B1 'Valor
+B2 'A_B_C
+B3 2.5
+B4 #B3
+B5 + * #B4 6.5 1.0
+B6 SUM B3 B5
+B7 1.0nao_faz_sentido_#C4
+5
+A1 dp=2;align=CENTER;bg=000000;fg=ffffff;font=ArialMT-16;
+B1 dp=2;align=CENTER;bg=000000;fg=ffffff;font=ArialMT-16;
+B3 dp=1;align=CENTER;bg=ffffff;fg=000000;font=Monospaced-12;
+B4 dp=3;align=CENTER;bg=ffffff;fg=000000;font=Monospaced-12;
+B5 dp=2;align=CENTER;bg=ffffff;fg=000000;font=Monospaced-12;

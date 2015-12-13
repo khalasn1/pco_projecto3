@@ -1,0 +1,9 @@
+4
+A1 'Apenas_texto
+B2 'TXT_@_B1
+C3 'TXT_@_C3
+XX9999 'quem_deixou_isto_aqui
+3
+A1 dp=2;align=CENTER;bg=ffffff;fg=000000;font=Monospaced-8;
+B2 dp=2;align=CENTER;bg=0000ff;fg=ffffff;font=Monospaced-12;
+C3 dp=2;align=CENTER;bg=ffffff;fg=0000ff;font=ArialMT-12;

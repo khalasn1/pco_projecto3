@@ -1,0 +1,69 @@
+53
+B8 'Eduardo
+B9 'Miguel
+B10 'Alberto
+B11 'Roberta
+B12 'Antónia
+B13 'Alcides
+B14 'Manuel
+B15 'Média
+C7 'P1
+C8 10.0
+C9 12.0
+C10 13.0
+C11 15.1
+C12 11.0
+C13 14.0
+C14 16.6
+C15 AVG C8 C14
+D7 'P2
+D8 12.0
+D9 14.5
+D10 11.0
+D11 9.0
+D12 11.5
+D13 12.3
+D14 14.5
+D15 AVG D8 D14
+E7 'P3
+E8 10.0
+E9 15.0
+E10 12.1
+E11 13.0
+E12 12.4
+E13 8.9
+E14 10.1
+E15 AVG E8 E14
+F7 'Soma
+F8 SUM C8 E8
+F9 SUM C9 E9
+F10 SUM C10 E10
+F11 SUM C11 E11
+F12 SUM C12 E12
+F13 SUM C13 E13
+F14 SUM C14 E14
+F15 AVG F8 F14
+G7 'Média
+G8 / #F8 3.0
+G9 / #F9 3.0
+G10 / #F10 3.0
+G11 / #F11 3.0
+G12 / #F12 3.0
+G13 / #F13 3.0
+G14 / #F14 3.0
+G15 AVG G8 G14
+14
+B8 align=LEFT;bg=f0f0f0;fg=000000;font=ArialMT-12;
+B9 align=LEFT;bg=f0f0f0;fg=000000;font=ArialMT-12;
+B10 align=LEFT;bg=f0f0f0;fg=000000;font=ArialMT-12;
+B11 align=LEFT;bg=f0f0f0;fg=000000;font=ArialMT-12;
+B12 align=LEFT;bg=f0f0f0;fg=000000;font=ArialMT-12;
+B13 align=LEFT;bg=f0f0f0;fg=000000;font=ArialMT-12;
+B14 align=LEFT;bg=f0f0f0;fg=000000;font=ArialMT-12;
+B15 align=CENTER;bg=0000ff;fg=ffffff;font=Monospaced-15;
+C5 align=CENTER;bg=ffffff;fg=000000;font=Monospaced-14;
+C7 align=CENTER;bg=000000;fg=ffffff;font=Monospaced-15;
+D7 align=CENTER;bg=000000;fg=ffffff;font=Monospaced-15;
+E7 align=CENTER;bg=000000;fg=ffffff;font=Monospaced-15;
+F7 align=CENTER;bg=000000;fg=ffffff;font=Monospaced-15;
+G7 align=CENTER;bg=0000ff;fg=ffffff;font=Monospaced-15;
