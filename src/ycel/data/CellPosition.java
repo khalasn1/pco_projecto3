@@ -120,10 +120,12 @@ public final class CellPosition implements Comparable<CellPosition> {
    */
   @Override
   public boolean equals(Object o) {
-    CellPosition cp = new CellPosition(col, row);
-    if (this.getCol() == cp.col && this.getRow() == cp.row){
-    	return true;
-    }
+
+      if (o.getClass().equals(CellPosition.class)) {
+          if (this.getCol() == ((CellPosition)o).getCol() && this.getRow() == ((CellPosition)o).getRow()) {
+              return true;
+            }
+          }
     return false;
   }
 }
