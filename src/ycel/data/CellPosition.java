@@ -55,7 +55,17 @@ public final class CellPosition implements Comparable<CellPosition> {
    */
   @Override
   public int compareTo(CellPosition other) {
-	int res;
+
+      if (COLUMN_COMPARATOR.compare(getCol(), other.getCol()) == 0) {
+          if(getRow() > other.getRow()) {
+              return 1;
+          }
+          else {
+              return 0;
+          }
+      }
+
+/*	int res;
 	int colunas = this.getCol().compareTo(other.getCol());
     if (colunas == 0){
     	if (this.getRow() < other.getRow()){
@@ -73,7 +83,7 @@ public final class CellPosition implements Comparable<CellPosition> {
     else {
     	res = -1;
     }
-    return res;	
+    return res;	*/
     }
 
 

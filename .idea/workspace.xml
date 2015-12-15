@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="580fb616-ab8f-4cbc-98e9-0cd1ac476ff9" name="Default" comment="second commit. ready to code">
+    <list default="true" id="580fb616-ab8f-4cbc-98e9-0cd1ac476ff9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ycel/data/CellPosition.java" afterPath="$PROJECT_DIR$/src/ycel/data/CellPosition.java" />
     </list>
@@ -39,15 +39,15 @@
       <file leaf-file-name="CellPosition.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ycel/data/CellPosition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12093023">
-              <caret line="90" column="58" selection-start-line="90" selection-start-column="42" selection-end-line="90" selection-end-column="58" />
+            <state vertical-scroll-proportion="-0.08372093">
+              <caret line="49" column="58" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
               <folding>
                 <element signature="e#510#511#0" expanded="true" />
                 <element signature="e#535#536#0" expanded="true" />
                 <element signature="e#621#622#0" expanded="true" />
                 <element signature="e#646#647#0" expanded="true" />
-                <element signature="e#2500#2501#0" expanded="true" />
-                <element signature="e#2536#2537#0" expanded="true" />
+                <element signature="e#2715#2716#0" expanded="true" />
+                <element signature="e#2751#2752#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,6 +160,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="pco_ppo_project_3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -755,7 +759,7 @@
       <updated>1450026490525</updated>
       <workItem from="1450026493269" duration="3310000" />
       <workItem from="1450046520637" duration="1226000" />
-      <workItem from="1450194406639" duration="6062000" />
+      <workItem from="1450194406639" duration="7196000" />
     </task>
     <task id="LOCAL-00001" summary="second commit. ready to code">
       <created>1450026811847</created>
@@ -763,11 +767,17 @@
       <option name="project" value="LOCAL" />
       <updated>1450026811847</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="COLUMN_COMPARATOR v1">
+      <created>1450201390015</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1450201390015</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10598000" />
+    <option name="totallyTimeSpent" value="11732000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -820,7 +830,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second commit. ready to code" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit. ready to code" />
+    <MESSAGE value="COLUMN_COMPARATOR v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="COLUMN_COMPARATOR v1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -932,15 +943,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ycel/data/CellPosition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12093023">
-          <caret line="90" column="58" selection-start-line="90" selection-start-column="42" selection-end-line="90" selection-end-column="58" />
+        <state vertical-scroll-proportion="-0.08372093">
+          <caret line="49" column="58" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
           <folding>
             <element signature="e#510#511#0" expanded="true" />
             <element signature="e#535#536#0" expanded="true" />
             <element signature="e#621#622#0" expanded="true" />
             <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#2500#2501#0" expanded="true" />
-            <element signature="e#2536#2537#0" expanded="true" />
+            <element signature="e#2715#2716#0" expanded="true" />
+            <element signature="e#2751#2752#0" expanded="true" />
           </folding>
         </state>
       </provider>
