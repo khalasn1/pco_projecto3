@@ -88,8 +88,26 @@ public final class CellPosition implements Comparable<CellPosition> {
    * e não <code>A, ..., AB, ..., B</code>).
    * </p>
    */
-  public static final 
-  Comparator<String> COLUMN_COMPARATOR = null; // TODO
+  public static final Comparator<String> COLUMN_COMPARATOR = new Comparator<String>() {
+      @Override
+      public int compare(String s, String t1) {
+
+          if (s.length() > t1.length()) {
+              return 1;
+          }
+          else if (s.length() < t1.length()) {
+              return 0;
+          }
+          else {
+              for (int i = 0; i < s.length(); i++) {
+                  if (s.charAt(i) < t1.charAt(i)) {
+                      return 1;
+                  }
+              }
+              return 0;
+          }
+      }
+  };
 
   /**
    * Obtém representação textual.
