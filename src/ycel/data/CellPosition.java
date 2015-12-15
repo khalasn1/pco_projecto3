@@ -122,7 +122,7 @@ public final class CellPosition implements Comparable<CellPosition> {
   public boolean equals(Object o) {
 
       if (o.getClass().equals(CellPosition.class)) {
-          if (this.getCol() == ((CellPosition)o).getCol() && this.getRow() == ((CellPosition)o).getRow()) {
+          if (this.getCol().equals(((CellPosition)o).getCol()) && this.getRow() == ((CellPosition)o).getRow()) {
               return true;
             }
           }

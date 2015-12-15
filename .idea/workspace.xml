@@ -39,7 +39,7 @@
       <file leaf-file-name="CellPosition.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ycel/data/CellPosition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.6">
+            <state vertical-scroll-proportion="1.4122137">
               <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
               <folding>
                 <element signature="e#510#511#0" expanded="true" />
@@ -57,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/src/ycel/data/Document.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -763,7 +763,7 @@
       <updated>1450026490525</updated>
       <workItem from="1450026493269" duration="3310000" />
       <workItem from="1450046520637" duration="1226000" />
-      <workItem from="1450194406639" duration="9138000" />
+      <workItem from="1450194406639" duration="9474000" />
     </task>
     <task id="LOCAL-00001" summary="second commit. ready to code">
       <created>1450026811847</created>
@@ -789,11 +789,17 @@
       <option name="project" value="LOCAL" />
       <updated>1450202647916</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="CellPosition done">
+      <created>1450204466876</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1450204466876</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13674000" />
+    <option name="totallyTimeSpent" value="14010000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -849,7 +855,8 @@
     <MESSAGE value="COLUMN_COMPARATOR v1" />
     <MESSAGE value="compare_to v1" />
     <MESSAGE value="compare_to v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="compare_to v2" />
+    <MESSAGE value="CellPosition done" />
+    <option name="LAST_COMMIT_MESSAGE" value="CellPosition done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -955,14 +962,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ycel/data/Document.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar!/java/util/Comparator.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3539604">
@@ -979,9 +978,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ycel/data/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ycel/data/CellPosition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.6">
+        <state vertical-scroll-proportion="1.4122137">
           <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
           <folding>
             <element signature="e#510#511#0" expanded="true" />
