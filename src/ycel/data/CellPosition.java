@@ -110,6 +110,10 @@ public final class CellPosition implements Comparable<CellPosition> {
    */
   @Override
   public boolean equals(Object o) {
-    return true; // TODO 
+    CellPosition cp = new CellPosition(col, row);
+    if (this.getCol() == cp.col && this.getRow() == cp.row){
+    	return true;
+    }
+    return false;
   }
 }
