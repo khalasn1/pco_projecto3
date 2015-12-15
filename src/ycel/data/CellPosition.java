@@ -64,28 +64,10 @@ public final class CellPosition implements Comparable<CellPosition> {
               return 0;
           }
       }
-
-/*	int res;
-	int colunas = this.getCol().compareTo(other.getCol());
-    if (colunas == 0){
-    	if (this.getRow() < other.getRow()){
-    		res = -1;
-    	}
-    	else if(this.getRow() > other.getRow()){
-    		res = 1;
-    	}
-    	else{
-    		res = 0;
-    	}}
-    else if(colunas == 1){
-    	res = 1;
+      else {
+          return 1;
+      }
     }
-    else {
-    	res = -1;
-    }
-    return res;	*/
-    }
-
 
   /**
    * Comparador de colunas.
