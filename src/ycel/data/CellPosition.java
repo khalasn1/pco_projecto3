@@ -11,7 +11,8 @@ import java.util.Comparator;
  */
 public final class CellPosition implements Comparable<CellPosition> {
 
-  // TODO
+  final String col;
+  final int row;
 
   /**
    * Construtor.
@@ -19,7 +20,8 @@ public final class CellPosition implements Comparable<CellPosition> {
    * @param row Linha.
    */
   public CellPosition(String col, int row) {
-    // TODO
+    this.col = col;
+    this.row = row;
   }
 
   /**
@@ -27,14 +29,15 @@ public final class CellPosition implements Comparable<CellPosition> {
    * @return Valor da coluna.
    */
   public String getCol() {
-    return ""; // TODO
+    return this.col;
   }
   /**
    * Obtém linha.
    * @return Valor da linha.
    */
+  
   public int getRow() {
-    return -1; // TODO
+    return this.row;
   }
 
   /**
@@ -52,8 +55,27 @@ public final class CellPosition implements Comparable<CellPosition> {
    */
   @Override
   public int compareTo(CellPosition other) {
-    return 0; // TODO
-  }
+	int res;
+	int colunas = this.getCol().compareTo(other.getCol());
+    if (colunas == 0){
+    	if (this.getRow() < other.getRow()){
+    		res = -1;
+    	}
+    	else if(this.getRow() > other.getRow()){
+    		res = 1;
+    	}
+    	else{
+    		res = 0;
+    	}}
+    else if(colunas == 1){
+    	res = 1;
+    }
+    else {
+    	res = -1;
+    }
+    return res;	
+    }
+
 
   /**
    * Comparador de colunas.

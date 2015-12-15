@@ -6,13 +6,13 @@ package ycel.data;
  */
 public final class CNumber implements NumberContent {
 
-  // TODO  
+  private double value;
   /**
    * Construtor.
    * @param value Valor a representar.
    */
   public CNumber(double value) {
-    // TODO
+    this.value = value;
   }
 
   /**
