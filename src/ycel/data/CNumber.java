@@ -1,5 +1,6 @@
 package ycel.data;
 
+import ycel.data.CReference;
 
 /**
  * Conteúdo de célula definido por um número. 
@@ -31,7 +32,8 @@ public final class CNumber implements NumberContent {
    */
   @Override
   public Double evaluate(CellValues cv) {
-    return value; // TODO
+
+    return ; // TODO
   }
   
 }

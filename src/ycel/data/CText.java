@@ -6,13 +6,15 @@ package ycel.data;
  *
  */
 public final class CText implements CellContent {
+
+  private String text;
   
   /**
    * Construtor.
    * @param text Texto.
    */
   public CText(String text) {
-    // TODO
+    this.text = text;
   }
 
   /**
@@ -30,7 +32,7 @@ public final class CText implements CellContent {
    */
   @Override
   public String formula() {
-    return ""; // TODO
+    return "'" + text.replace(" ", "_");
   }
 
   /**
@@ -39,6 +41,6 @@ public final class CText implements CellContent {
    */
   @Override
   public String evaluate(CellValues cells) {
-    return ""; // TODO
+    return text;
   }
 }

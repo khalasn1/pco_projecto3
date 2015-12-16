@@ -16,14 +16,14 @@ package ycel.data;
  */
 public final class CReference implements NumberContent {
   
-  // TODO
+  private CellPosition pos;
   
   /**
    * Construtor.
    * @param pos Posição da outra célula.
    */
   public CReference(CellPosition pos) {
-    // TODO
+    this.pos = pos;
   }
   /**
    * Obtém formula. 
@@ -32,7 +32,7 @@ public final class CReference implements NumberContent {
    */
   @Override
   public String formula() {
-    return "";
+    return "#" + pos.toString();
   }
 
   /**
@@ -44,7 +44,11 @@ public final class CReference implements NumberContent {
    */
   @Override
   public Double evaluate(CellValues cells) {
-    return 0.0;
+
+    if(cells instanceof NumberContent) {
+      return
+    }
+    return Double.NaN;
   }
 
 }
