@@ -88,10 +88,10 @@ public final class Document implements CellValues {
   @Override
   public void setContent(CellPosition pos, CellContent c) {
     if(c == CUndefined.INSTANCE){
-    	contentMap.remove(c);
+    	contentMap.remove(pos);
     }
     else{
-    	 
+    	contentMap.put(pos, c);
     }
   }
   
@@ -106,7 +106,9 @@ public final class Document implements CellValues {
    * @return Um objecto {@link CellStyle}.
    */
   public CellStyle getStyle(CellPosition pos) {
-    // TODO
+    if (styleMap.containsKey(pos)){
+    	
+    }
     return CellStyle.DEFAULT_STYLE;
   }
   
