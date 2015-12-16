@@ -2,46 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="580fb616-ab8f-4cbc-98e9-0cd1ac476ff9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/Program.class" afterPath="$PROJECT_DIR$/bin/ycel/Program.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/data/CBinaryOperation.class" afterPath="$PROJECT_DIR$/bin/ycel/data/CBinaryOperation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/data/CBinaryOperator.class" afterPath="$PROJECT_DIR$/bin/ycel/data/CBinaryOperator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/data/CError.class" afterPath="$PROJECT_DIR$/bin/ycel/data/CError.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/data/CNumber.class" afterPath="$PROJECT_DIR$/bin/ycel/data/CNumber.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/data/CRangeOperation.class" afterPath="$PROJECT_DIR$/bin/ycel/data/CRangeOperation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/data/CRangeOperator$1.class" afterPath="$PROJECT_DIR$/bin/ycel/data/CRangeOperator$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/data/CRangeOperator$2.class" afterPath="$PROJECT_DIR$/bin/ycel/data/CRangeOperator$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/data/CRangeOperator$3.class" afterPath="$PROJECT_DIR$/bin/ycel/data/CRangeOperator$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/data/CRangeOperator$4.class" afterPath="$PROJECT_DIR$/bin/ycel/data/CRangeOperator$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/data/CRangeOperator.class" afterPath="$PROJECT_DIR$/bin/ycel/data/CRangeOperator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/data/CReference.class" afterPath="$PROJECT_DIR$/bin/ycel/data/CReference.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/data/CText.class" afterPath="$PROJECT_DIR$/bin/ycel/data/CText.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/data/CUndefined.class" afterPath="$PROJECT_DIR$/bin/ycel/data/CUndefined.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/data/CellContent.class" afterPath="$PROJECT_DIR$/bin/ycel/data/CellContent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/data/CellPosition.class" afterPath="$PROJECT_DIR$/bin/ycel/data/CellPosition.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/data/CellStyle$Alignment.class" afterPath="$PROJECT_DIR$/bin/ycel/data/CellStyle$Alignment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/data/CellStyle.class" afterPath="$PROJECT_DIR$/bin/ycel/data/CellStyle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/data/CellValues.class" afterPath="$PROJECT_DIR$/bin/ycel/data/CellValues.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/data/NumberContent.class" afterPath="$PROJECT_DIR$/bin/ycel/data/NumberContent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/gui/CellEditor.class" afterPath="$PROJECT_DIR$/bin/ycel/gui/CellEditor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/gui/GUIConstants.class" afterPath="$PROJECT_DIR$/bin/ycel/gui/GUIConstants.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/gui/HeaderRenderer.class" afterPath="$PROJECT_DIR$/bin/ycel/gui/HeaderRenderer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/gui/HeaderTable$1.class" afterPath="$PROJECT_DIR$/bin/ycel/gui/HeaderTable$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/gui/HeaderTable.class" afterPath="$PROJECT_DIR$/bin/ycel/gui/HeaderTable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/gui/YCelModel.class" afterPath="$PROJECT_DIR$/bin/ycel/gui/YCelModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/gui/YCelTable$1.class" afterPath="$PROJECT_DIR$/bin/ycel/gui/YCelTable$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/gui/YCelTable$2.class" afterPath="$PROJECT_DIR$/bin/ycel/gui/YCelTable$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/gui/YCelTable$CellSelectionListener.class" afterPath="$PROJECT_DIR$/bin/ycel/gui/YCelTable$CellSelectionListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/gui/YCelTable.class" afterPath="$PROJECT_DIR$/bin/ycel/gui/YCelTable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/gui/YCelWindow$1.class" afterPath="$PROJECT_DIR$/bin/ycel/gui/YCelWindow$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/gui/YCelWindow$AppAction$1.class" afterPath="$PROJECT_DIR$/bin/ycel/gui/YCelWindow$AppAction$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/gui/YCelWindow$AppAction$2.class" afterPath="$PROJECT_DIR$/bin/ycel/gui/YCelWindow$AppAction$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/gui/YCelWindow$AppAction$3.class" afterPath="$PROJECT_DIR$/bin/ycel/gui/YCelWindow$AppAction$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/gui/YCelWindow$AppAction.class" afterPath="$PROJECT_DIR$/bin/ycel/gui/YCelWindow$AppAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/gui/YCelWindow.class" afterPath="$PROJECT_DIR$/bin/ycel/gui/YCelWindow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/io/CellParser.class" afterPath="$PROJECT_DIR$/bin/ycel/io/CellParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/io/DocumentIO.class" afterPath="$PROJECT_DIR$/bin/ycel/io/DocumentIO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ycel/io/YCelIOException.class" afterPath="$PROJECT_DIR$/bin/ycel/io/YCelIOException.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ycel/data/CellPosition.java" afterPath="$PROJECT_DIR$/src/ycel/data/CellPosition.java" />
     </list>
     <ignored path="pco_ppo_project_3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,7 +18,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -68,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/src/ycel/data/CBinaryOperation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+              <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -77,9 +39,12 @@
       <file leaf-file-name="CellPosition.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ycel/data/CellPosition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.0302325">
-              <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
-              <folding />
+            <state vertical-scroll-proportion="0.58778626">
+              <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+              <folding>
+                <element signature="e#2588#2589#0" expanded="true" />
+                <element signature="e#2624#2625#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,7 +53,21 @@
         <entry file="file://$PROJECT_DIR$/src/ycel/data/Document.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <element signature="e#1255#1256#0" expanded="true" />
+                <element signature="e#1282#1283#0" expanded="true" />
+                <element signature="e#1447#1448#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CellContent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ycel/data/CellContent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -128,6 +107,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/ycel/data/Document.java" />
+        <option value="$PROJECT_DIR$/src/ycel/data/CNumber.java" />
         <option value="$PROJECT_DIR$/src/ycel/data/CellPosition.java" />
       </list>
     </option>
@@ -295,16 +276,12 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bin/ycel/data/CBinaryOperator$1.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bin/ycel/data/CBinaryOperator$2.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bin/ycel/data/CBinaryOperator$3.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bin/ycel/data/CBinaryOperator$4.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bin/ycel/data/CBinaryOperator$5.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bin/ycel/data/CBinaryOperator$6.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bin/ycel/data/CellPosition.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/bin/ycel/data/Document.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/ycel/data/CBinaryOperator.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/ycel/data/Document.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/bin/ycel/data/CBinaryOperation.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/bin/ycel/data/CBinaryOperator.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/bin/ycel/data/CNumber.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/bin/ycel/io/CellParser.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/ycel/data/CBinaryOperation.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/ycel/data/CNumber.java</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -799,7 +776,7 @@
       <workItem from="1450026493269" duration="3310000" />
       <workItem from="1450046520637" duration="1226000" />
       <workItem from="1450194406639" duration="9474000" />
-      <workItem from="1450276269102" duration="244000" />
+      <workItem from="1450276269102" duration="5830000" />
     </task>
     <task id="LOCAL-00001" summary="second commit. ready to code">
       <created>1450026811847</created>
@@ -831,11 +808,17 @@
       <option name="project" value="LOCAL" />
       <updated>1450204466876</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="CellPosition done">
+      <created>1450276525949</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1450276525949</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14254000" />
+    <option name="totallyTimeSpent" value="19840000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -848,14 +831,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="1" width="1370" height="769" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20058565" sideWeight="0.35043988" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19399707" sideWeight="0.6495601" order="3" side_tool="false" content_ui="combo" />
@@ -865,7 +849,6 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18778281" sideWeight="0.50623053" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -915,7 +898,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#2588#2589#0" expanded="true" />
+            <element signature="e#2624#2625#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -923,7 +909,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding />
+          <folding>
+            <element signature="e#1255#1256#0" expanded="true" />
+            <element signature="e#1282#1283#0" expanded="true" />
+            <element signature="e#1447#1448#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -982,14 +972,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ycel/gui/CellEditor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin/ycel/data/CNumber.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1008,15 +990,7 @@
     <entry file="file://$PROJECT_DIR$/src/ycel/data/CBinaryOperation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ycel/data/CNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -1035,19 +1009,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ycel/gui/CellEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar!/java/util/TreeMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17170112">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ycel/gui/YCelTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69007635">
+          <caret line="94" column="7" selection-start-line="94" selection-start-column="7" selection-end-line="94" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ycel/data/CellContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ycel/data/CellStyle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49770993">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ycel/data/Document.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#1255#1256#0" expanded="true" />
+            <element signature="e#1282#1283#0" expanded="true" />
+            <element signature="e#1447#1448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ycel/data/CNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ycel/data/CellPosition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0302325">
-          <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
-          <folding />
+        <state vertical-scroll-proportion="0.58778626">
+          <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+          <folding>
+            <element signature="e#2588#2589#0" expanded="true" />
+            <element signature="e#2624#2625#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

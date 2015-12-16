@@ -58,14 +58,20 @@ public final class CellPosition implements Comparable<CellPosition> {
 
       if (COLUMN_COMPARATOR.compare(getCol(), other.getCol()) == 0) {
           if(getRow() > other.getRow()) {
-              return 1;
+              return -1;
           }
-          else {
+          else if (getRow() == other.getRow()) {
               return 0;
           }
+          else {
+              return 1;
+          }
+      }
+      else if (COLUMN_COMPARATOR.compare(getCol(), other.getCol()) == 1) {
+          return 1;
       }
       else {
-          return 1;
+          return -1;
       }
     }
 
