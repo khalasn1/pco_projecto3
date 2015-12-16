@@ -31,7 +31,7 @@ public final class CNumber implements NumberContent {
    */
   @Override
   public Double evaluate(CellValues cv) {
-    return 0.0; // TODO
+    return value; // TODO
   }
   
 }

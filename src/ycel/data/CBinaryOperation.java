@@ -19,7 +19,9 @@ package ycel.data;
  *
  */
 public final class CBinaryOperation implements NumberContent {
-  // TODO 
+  private CBinaryOperator op;
+  private NumberContent left;
+  private NumberContent right;
 
   /**
    * Construtor.
@@ -30,7 +32,10 @@ public final class CBinaryOperation implements NumberContent {
   public CBinaryOperation(CBinaryOperator op, 
       NumberContent left,
       NumberContent right) {
-    // TODO
+    
+	  this.op = op;
+	  this.left = left;
+	  this.right = right;
   }
 
   /**
