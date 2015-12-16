@@ -12,42 +12,42 @@ public enum CBinaryOperator {
   ADD("+") {
     @Override
     double evaluate(double a, double b) {
-      return 0.0; // TODO
+      return a + b;
     } 
   },
   /** Subtracção. */
   SUB("-") {
     @Override
     double evaluate(double a, double b) {
-      return 0.0; // TODO
+      return a - b;
     }
   },
   /** Multiplicação. */
   MUL("*") {
     @Override
     double evaluate(double a, double b) {
-      return 0.0; // TODO
+      return a * b;
     }
   },  
   /** Divisão. */
   DIV("/") {
     @Override
     double evaluate(double a, double b) {
-      return 0.0; // TODO
+      return a / b;
     }
   },
   /** Mínimo. */ 
   MIN("min"){
     @Override
     double evaluate(double a, double b) {
-      return 0.0; // TODO
+      return Math.min(a, b);
     }
   }, 
   /** Máximo */
   MAX("max") {
     @Override
     double evaluate(double a, double b) {
-      return 0.0; // TODO
+      return Math.max(a, b);
     }
   };
   
