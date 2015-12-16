@@ -91,7 +91,7 @@ public final class Document implements CellValues {
     	contentMap.remove(c);
     }
     else{
-    	getContent(pos)
+    	
     }
   }
   
