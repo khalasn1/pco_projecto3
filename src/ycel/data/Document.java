@@ -87,7 +87,12 @@ public final class Document implements CellValues {
    */
   @Override
   public void setContent(CellPosition pos, CellContent c) {
-    // TODO
+    if(c == CUndefined.INSTANCE){
+    	contentMap.remove(c);
+    }
+    else{
+    	getContent(pos)
+    }
   }
   
   
