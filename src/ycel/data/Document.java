@@ -67,7 +67,9 @@ public final class Document implements CellValues {
    */
   @Override
   public CellContent getContent(CellPosition pos) {
-    // TODO
+    if (contentMap.containsKey(pos)){
+    	return contentMap.get(pos);
+    }
     return CUndefined.INSTANCE;
   }
   
