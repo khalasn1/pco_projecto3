@@ -52,6 +52,8 @@ public final class CellPosition implements Comparable<CellPosition> {
    * </p>
    * @param other A outra posição.
    * @return Valor conforme descrito em {@link Comparable#compareTo(Object)}.
+   *
+   * cenas
    */
   @Override
   public int compareTo(CellPosition other) {
@@ -60,11 +62,11 @@ public final class CellPosition implements Comparable<CellPosition> {
           if(getRow() > other.getRow()) {
               return -1;
           }
-          else if (getRow() == other.getRow()) {
-              return 0;
+          else if (getRow() < other.getRow()) {
+              return 1;
           }
           else {
-              return 1;
+              return 0;
           }
       }
       else if (COLUMN_COMPARATOR.compare(getCol(), other.getCol()) == 1) {
