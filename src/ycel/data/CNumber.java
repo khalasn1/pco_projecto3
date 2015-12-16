@@ -22,8 +22,8 @@ public final class CNumber implements NumberContent {
    */
   @Override
   public String formula() {
-    return String.valueOf(0.0); // TODO
-  }
+    return String.valueOf(value);
+    }
 
   /**
    * Avalia conteúdo.
