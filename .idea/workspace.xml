@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="580fb616-ab8f-4cbc-98e9-0cd1ac476ff9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ycel/data/CBinaryOperation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ycel/data/CBinaryOperator$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ycel/data/CBinaryOperator$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ycel/data/CBinaryOperator$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ycel/data/CBinaryOperator$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ycel/data/CBinaryOperator$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ycel/data/CBinaryOperator$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ycel/data/CBinaryOperator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ycel/data/CNumber.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ycel/data/CReference.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ycel/data/CText.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ycel/data/CellPosition.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/ycel/data/Document.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ycel/data/CBinaryOperation.java" afterPath="$PROJECT_DIR$/src/ycel/data/CBinaryOperation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ycel/data/CNumber.java" afterPath="$PROJECT_DIR$/src/ycel/data/CNumber.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ycel/data/CReference.java" afterPath="$PROJECT_DIR$/src/ycel/data/CReference.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ycel/data/CRangeOperator.java" afterPath="$PROJECT_DIR$/src/ycel/data/CRangeOperator.java" />
     </list>
     <ignored path="pco_ppo_project_3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,15 +27,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CBinaryOperation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CBinaryOperation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ycel/data/CBinaryOperation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.1435115">
-              <caret line="78" column="62" selection-start-line="78" selection-start-column="62" selection-end-line="78" selection-end-column="62" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="81" column="1" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
               <folding>
                 <element signature="e#1446#1447#0" expanded="true" />
                 <element signature="e#1525#1526#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CRangeOperation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ycel/data/CRangeOperation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CRangeOperator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ycel/data/CRangeOperator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.7038168">
+              <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,6 +99,7 @@
         <option value="$PROJECT_DIR$/src/ycel/data/CNumber.java" />
         <option value="$PROJECT_DIR$/src/ycel/data/CReference.java" />
         <option value="$PROJECT_DIR$/src/ycel/data/CBinaryOperation.java" />
+        <option value="$PROJECT_DIR$/src/ycel/data/CRangeOperator.java" />
       </list>
     </option>
   </component>
@@ -667,7 +674,7 @@
       <workItem from="1450046520637" duration="1226000" />
       <workItem from="1450194406639" duration="9474000" />
       <workItem from="1450276269102" duration="13663000" />
-      <workItem from="1450299297573" duration="3018000" />
+      <workItem from="1450299297573" duration="3913000" />
     </task>
     <task id="LOCAL-00001" summary="second commit. ready to code">
       <created>1450026811847</created>
@@ -717,11 +724,17 @@
       <option name="project" value="LOCAL" />
       <updated>1450299628848</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="CBinaryOperation e CBinaryOperator done. thank you ana for operator :3">
+      <created>1450302347299</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1450302347299</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30691000" />
+    <option name="totallyTimeSpent" value="31586000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -734,7 +747,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="1" width="1370" height="769" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18814056" sideWeight="0.35777125" order="5" side_tool="true" content_ui="tabs" />
@@ -743,6 +756,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18814056" sideWeight="0.6422287" order="3" side_tool="false" content_ui="combo" />
@@ -752,13 +766,12 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18778281" sideWeight="0.50623053" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -781,7 +794,9 @@
     <MESSAGE value="ceasd" />
     <MESSAGE value="ola" />
     <MESSAGE value="Ctext e CNumber done (review)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ctext e CNumber done (review)" />
+    <MESSAGE value="CBinaryOperation e CBinaryOperator done. thank you ana for operator :3" />
+    <MESSAGE value="CRangeOperator done" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRangeOperator done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1104,22 +1119,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ycel/data/CRangeOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46717557">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ycel/data/CRangeOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08549618">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ycel/data/CBinaryOperator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1139,12 +1138,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ycel/data/CBinaryOperation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.1435115">
-          <caret line="78" column="62" selection-start-line="78" selection-start-column="62" selection-end-line="78" selection-end-column="62" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="81" column="1" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
           <folding>
             <element signature="e#1446#1447#0" expanded="true" />
             <element signature="e#1525#1526#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ycel/data/CRangeOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ycel/data/CRangeOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.7038168">
+          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
