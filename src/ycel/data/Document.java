@@ -107,7 +107,7 @@ public final class Document implements CellValues {
    */
   public CellStyle getStyle(CellPosition pos) {
     if (styleMap.containsKey(pos)){
-    	
+    	return styleMap.get(pos);
     }
     return CellStyle.DEFAULT_STYLE;
   }
@@ -125,6 +125,11 @@ public final class Document implements CellValues {
    * @param style Estilo.
    */
   public void setStyle(CellPosition pos, CellStyle style) {
-    // TODO
+    if (style == CellStyle.DEFAULT_STYLE){
+    	styleMap.remove(pos);
+    }
+    else{
+    	styleMap.put(pos, style);
+    }
   }
 }
