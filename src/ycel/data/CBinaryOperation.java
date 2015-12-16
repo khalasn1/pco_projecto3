@@ -58,7 +58,7 @@ public final class CBinaryOperation implements NumberContent {
    */
   @Override
   public String formula() {
-    return ""; // TODO
+    return op.toString() + " " + left.toString() + " " + right.toString();
   }
 
   /**
@@ -75,7 +75,8 @@ public final class CBinaryOperation implements NumberContent {
    */
   @Override
   public Double evaluate(CellValues cv) {
-    return 0.0; // TODO
+
+    return op.evaluate(left.evaluate(cv), right.evaluate(cv));
   }
 
 }

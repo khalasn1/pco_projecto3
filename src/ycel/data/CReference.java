@@ -1,6 +1,8 @@
 package ycel.data;
 
 
+import jdk.nashorn.internal.objects.NativeUint8Array;
+
 /**
  * Referência a outra célula.
  * 
@@ -46,9 +48,8 @@ public final class CReference implements NumberContent {
   public Double evaluate(CellValues cells) {
 
     if(cells instanceof NumberContent) {
-      return
+      return ((NumberContent) cells).evaluate(cells);
     }
     return Double.NaN;
   }
-
 }
