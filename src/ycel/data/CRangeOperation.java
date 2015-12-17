@@ -31,7 +31,9 @@ import java.util.NavigableMap;
  */
 public final class CRangeOperation implements NumberContent {
 
-  // TODO
+  private CRangeOperator op;
+  private CellPosition start;
+  private CellPosition end;
 
   /**
    * Construtor.
@@ -40,7 +42,9 @@ public final class CRangeOperation implements NumberContent {
    * @param end Fim da gama.
    */
   public CRangeOperation(CRangeOperator op, CellPosition start, CellPosition end) {
-    // TODO
+    this.op = op;
+    this.start = start;
+    this.end = end;
   }
 
   /**
@@ -50,14 +54,14 @@ public final class CRangeOperation implements NumberContent {
    */
   @Override
   public String formula() {
-    return ""; // TODO
+    return op.toString() + " " + start.toString() + " " + end.toString(); // TODO
   }
 
   /** 
    * Avalia conteúdo.
    *
    * <p>
-   * A avaliação resulta de
+   * A avaliação resulta dedc
    * aplicar o operador de gama à lista
    * à gama de células  <code>c = (pos,content)</code> que obedece
    * às seguintes 3 condições:

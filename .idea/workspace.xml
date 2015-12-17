@@ -674,7 +674,7 @@
       <workItem from="1450046520637" duration="1226000" />
       <workItem from="1450194406639" duration="9474000" />
       <workItem from="1450276269102" duration="13663000" />
-      <workItem from="1450299297573" duration="3913000" />
+      <workItem from="1450299297573" duration="3902000" />
     </task>
     <task id="LOCAL-00001" summary="second commit. ready to code">
       <created>1450026811847</created>
@@ -734,7 +734,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31586000" />
+    <option name="totallyTimeSpent" value="31575000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -747,7 +747,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="1" width="1370" height="769" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18814056" sideWeight="0.35777125" order="5" side_tool="true" content_ui="tabs" />
@@ -795,8 +795,7 @@
     <MESSAGE value="ola" />
     <MESSAGE value="Ctext e CNumber done (review)" />
     <MESSAGE value="CBinaryOperation e CBinaryOperator done. thank you ana for operator :3" />
-    <MESSAGE value="CRangeOperator done" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRangeOperator done" />
+    <option name="LAST_COMMIT_MESSAGE" value="CBinaryOperation e CBinaryOperator done. thank you ana for operator :3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
