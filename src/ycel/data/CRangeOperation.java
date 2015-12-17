@@ -54,7 +54,7 @@ public final class CRangeOperation implements NumberContent {
    */
   @Override
   public String formula() {
-    return op.toString() + " " + start.toString() + " " + end.toString(); // TODO
+    return op.toString() + " " + start.toString() + " " + end.toString();
   }
 
   /** 
