@@ -58,7 +58,7 @@ public final class CBinaryOperation implements NumberContent {
    */
   @Override
   public String formula() {
-    return op.toString() + " " + left.toString() + " " + right.toString();
+    return op + " " + left.formula() + " " + right.formula();
   }
 
   /**

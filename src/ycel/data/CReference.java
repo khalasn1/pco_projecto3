@@ -47,8 +47,8 @@ public final class CReference implements NumberContent {
   @Override
   public Double evaluate(CellValues cells) {
 
-    if(cells instanceof NumberContent) {
-      return ((NumberContent) cells).evaluate(cells);
+    if(cells.getContent(pos) instanceof NumberContent) {
+      return ((NumberContent) cells.getContent(pos)).evaluate(cells);
     }
     return Double.NaN;
   }

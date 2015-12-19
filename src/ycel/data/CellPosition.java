@@ -98,10 +98,10 @@ public final class CellPosition implements Comparable<CellPosition> {
           }
           else {
               for (int i = 0; i < s.length(); i++) {
-                  if (s.charAt(i) < t1.charAt(i)) {
+                  if (s.charAt(i) > t1.charAt(i)) {
                       return 1;
                   }
-                  else if (s.charAt(i) > t1.charAt(i)) {
+                  else if (s.charAt(i) < t1.charAt(i)) {
                       return -1;
                   }
               }

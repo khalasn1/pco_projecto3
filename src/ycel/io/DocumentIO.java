@@ -77,16 +77,23 @@ public final class DocumentIO {
     try {
 
       int cenas = doc.allCells().size();
-      out.append(""+cenas).append("\n");
+      out.append("" + cenas).append("\n");
 
       for (Entry<CellPosition, CellContent> e : doc.allCells().entrySet()) {
-        out.append(e.getKey().toString()).append(" ").append(e.getKey().toString()).append("/n");
+        out.append(e.getKey().toString())
+                .append(" ")
+                .append(e.getValue().formula())
+                .append("\n");
       }
 
-      doc.allStyles().size();
+      cenas = doc.allStyles().size();
+      out.append("" + cenas).append("\n");
 
       for (Entry<CellPosition, CellStyle> e : doc.allStyles().entrySet()) {
-        out.append(e.getKey().toString()).append(" ").append(e.getKey().toString()).append("/n");
+        out.append(e.getKey().toString())
+                .append(" ")
+                .append(e.getValue().toString())
+                .append("\n");
       }
 
     }

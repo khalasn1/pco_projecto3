@@ -1,6 +1,8 @@
 package ycel.data;
 
 
+import java.util.List;
+import java.util.Map;
 import java.util.NavigableMap;
 
 
@@ -54,7 +56,7 @@ public final class CRangeOperation implements NumberContent {
    */
   @Override
   public String formula() {
-    return op.toString() + " " + start.toString() + " " + end.toString();
+    return op + " " + start.toString() + " " + end.toString();
   }
 
   /** 
@@ -97,7 +99,19 @@ public final class CRangeOperation implements NumberContent {
    */
   @Override
   public Double evaluate(CellValues cv) {
-    return 0.0; // TODO
+
+    double range = end.getRow() - start.getRow();
+
+    start.getCol()
+
+    for (NavigableMap<CellPosition, CellContent> e : cv.allCells().higherEntry()) {
+      
+    }
+
+    List<CellPosition> listpos =
+    List<Double>
+
+    return 0.0;
   }
 
 }
