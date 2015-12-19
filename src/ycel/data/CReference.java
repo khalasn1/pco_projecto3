@@ -1,8 +1,5 @@
 package ycel.data;
 
-
-import jdk.nashorn.internal.objects.NativeUint8Array;
-
 /**
  * Referência a outra célula.
  * 

@@ -1,10 +1,7 @@
 package ycel.data;
 
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.NavigableMap;
+import java.util.*;
 
 
 /**
@@ -101,8 +98,13 @@ public final class CRangeOperation implements NumberContent {
   @Override
   public Double evaluate(CellValues cv) {
 
+    //Lista para guardar os doubles no range
     List<Double> e = new ArrayList<>();
 
+    /*
+      * Apesar da nota do professor sobre a utilização do NavigableMap#ceilingEntry,#hightEntry ,
+      * foi utilizado o metodo subMap.entrySet para iterar as celulas no range.
+     */
     for (Map.Entry<CellPosition, CellContent> i: cv.allCells().subMap(start, true, end, true) .entrySet()) {
       if(i.getKey().getRow() >= start.getRow() && i.getKey().getRow() <= end.getRow())
         if (i.getValue() instanceof NumberContent)

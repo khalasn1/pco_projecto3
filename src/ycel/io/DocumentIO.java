@@ -76,9 +76,10 @@ public final class DocumentIO {
     PrintStream out = new PrintStream(f);
     try {
 
-      int cenas = doc.allCells().size();
-      out.append("" + cenas).append("\n");
+      // imprime tamanho das celulas
+      out.append("" + doc.allCells().size()).append("\n");
 
+      // itera varias Entries das celulas e imprime.
       for (Entry<CellPosition, CellContent> e : doc.allCells().entrySet()) {
         out.append(e.getKey().toString())
                 .append(" ")
@@ -86,9 +87,10 @@ public final class DocumentIO {
                 .append("\n");
       }
 
-      cenas = doc.allStyles().size();
-      out.append("" + cenas).append("\n");
+      // imprime tamanho do estilo
+      out.append("" + doc.allStyles().size()).append("\n");
 
+      // itera varias Entries dos estilos e imprime.
       for (Entry<CellPosition, CellStyle> e : doc.allStyles().entrySet()) {
         out.append(e.getKey().toString())
                 .append(" ")
