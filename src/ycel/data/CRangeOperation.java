@@ -105,7 +105,7 @@ public final class CRangeOperation implements NumberContent {
       * Apesar da nota do professor sobre a utilização do NavigableMap#ceilingEntry,#hightEntry ,
       * foi utilizado o metodo subMap.entrySet para iterar as celulas no range.
      */
-    for (Map.Entry<CellPosition, CellContent> i: cv.allCells().subMap(start, true, end, true) .entrySet()) {
+    for (Map.Entry<CellPosition, CellContent> i: cv.allCells().subMap(start, true, end, true).entrySet()) {
       if(i.getKey().getRow() >= start.getRow() && i.getKey().getRow() <= end.getRow())
         if (i.getValue() instanceof NumberContent)
           e.add(((NumberContent) i.getValue()).evaluate(cv));
