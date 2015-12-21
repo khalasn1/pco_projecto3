@@ -98,6 +98,11 @@ public final class CRangeOperation implements NumberContent {
   @Override
   public Double evaluate(CellValues cv) {
 
+
+    // verifica se start esta antes do end. se tiver, return NaN
+    if(start.getRow() > end.getRow())
+      return Double.NaN;
+
     //Lista para guardar os doubles no range
     List<Double> e = new ArrayList<>();
 
@@ -111,6 +116,7 @@ public final class CRangeOperation implements NumberContent {
           e.add(((NumberContent) i.getValue()).evaluate(cv));
     }
 
+    // verifica se tamanho da lista e maior que 0
     if (e.size() > 0)
       return op.evaluate(e);
 
