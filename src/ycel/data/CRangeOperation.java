@@ -100,7 +100,7 @@ public final class CRangeOperation implements NumberContent {
 
 
     // verifica se start esta antes do end. se tiver, return NaN
-    if(start.getRow() > end.getRow())
+    if(start.compareTo(end) > -1)
       return Double.NaN;
 
     //Lista para guardar os doubles no range
@@ -114,7 +114,7 @@ public final class CRangeOperation implements NumberContent {
       if(i.getKey().getRow() >= start.getRow() && i.getKey().getRow() <= end.getRow())
         if (i.getValue() instanceof NumberContent)
           e.add(((NumberContent) i.getValue()).evaluate(cv));
-    }
+      }
 
     // verifica se tamanho da lista e maior que 0
     if (e.size() > 0)
