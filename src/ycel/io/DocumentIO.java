@@ -39,20 +39,13 @@ public final class DocumentIO {
       Document doc = new Document();
       int numbercells = in.nextInt();
 
-      for (int i = 0; i < numbercells; i++) {
-        CellPosition pos = CellParser.parsePosition(in.next());
-        CellContent con = CellParser.parseContent(in);
-        doc.setContent(pos,con);
-      }
+      for (int i = 0; i < numbercells; i++)
+        doc.setContent(CellParser.parsePosition(in.next()),CellParser.parseContent(in));
 
       int style = in.nextInt();
 
-      for (int i = 0; i < style; i++) {
-        CellPosition pos = CellParser.parsePosition(in.next());
-        CellStyle sty = CellParser.parseStyle(in.next());
-
-        doc.setStyle(pos, sty);
-      }
+      for (int i = 0; i < style; i++)
+        doc.setStyle(CellParser.parsePosition(in.next()), CellParser.parseStyle(in.next()));
 
       return doc;
     } 
